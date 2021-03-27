@@ -20,6 +20,7 @@ html {
   font-size: 62.5%;
   font-family: var(--font-DM);
 }
+/* -----------------------------------------cabezera --------------------------------------------------- */
 header {
   position: relative;
   display: flex;
@@ -62,11 +63,13 @@ header img {
 }
 .header--title-container .header-button {
   position: absolute;
-  /* left: calc(50% - 125px); */
+  /* left: calc(50% - 125px); -> centramos haciedno calculo  */
+  /* -----Centra de otra manera----- */
   left: 0;
   right: 0;
   margin-right: auto;
   margin-left: auto;
+  /* ------ Centramos con margin auto para ser mas precisos ------ */
   top: 270px;
   display: block;
   margin-top: 35px;
@@ -88,4 +91,25 @@ header img {
   height: 8px;
   margin-left: 10px;
   background-image: url("../assets/icons/down-arrow.svg");
+}
+/* -----------------------------------------cabezera --------------------------------------------------- */
+
+/* -----------------------------------------Main --------------------------------------------------- */
+main {
+  width: 100%;
+  height: auto;
+  background-color: var(--off-white);
+}
+.main__exchange__container {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.main__exchange__container--title {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
 }
