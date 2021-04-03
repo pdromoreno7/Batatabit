@@ -154,10 +154,10 @@ main {
   color: var(--bitcoin-orange);
 }
 .main__currency-table .currrency__table--container {
-  width: 90%;
+  width: 100%;
   min-width: 230px;
   max-width: 300px;
-  height: 250px;
+  height: 220px;
   margin: 0 auto;
 }
 .currrency__table--container table {
@@ -211,15 +211,19 @@ main {
   background-repeat: no-repeat;
 }
 .main__currency-table .currency__table-date {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+  width: 190px;
+  height: 30px;
+  margin: 0 auto;
   margin-top: 15px;
+  padding: 8px;
   background-color: var(--soft-orange);
-  width: auto;
-  height: 45px;
   border-radius: 8px;
 }
 .main__currency-table .currency__table-date p {
-  margin: auto 0;
-  font-size: 1.2rem;
+  /* margin: auto 0;
+  font-size: 1rem; */
+  color: var(--warm-black);
+  font-weight: 250px;
 }
