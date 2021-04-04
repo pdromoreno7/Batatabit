@@ -137,7 +137,7 @@ main {
   line-height: 1.6rem;
   color: #757575;
 }
-/* -------------Table--------------- */
+/* -------------Table 1--------------- */
 .main__currency-table {
   width: 70%;
   min-width: 235px;
@@ -222,6 +222,76 @@ main {
   border-radius: 8px;
 }
 .main__currency-table .currency__table-date p {
+  /* margin: auto 0;
+  font-size: 1rem; */
+  color: var(--warm-black);
+  font-weight: 250px;
+}
+/* -----------------------------Table 2--------------------------- */
+.main__currency-table_2 {
+  width: 70%;
+  min-width: 235px;
+  max-width: 500px;
+  height: 360px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+.main__currency-table_2 .currrency__table--title_2 {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  color: var(--secondary-blue);
+}
+.main__currency-table_2 .currrency__table--container_2 {
+  width: 100%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 220px;
+  margin: 0 auto;
+}
+.currrency__table--container_2 table {
+  width: 100%;
+  height: 100%;
+}
+.currrency__table--container_2 td {
+  width: 50%;
+  font-size: 1.6rem;
+  font-weight: 500px;
+  line-height: 1.9rem;
+  color: var(--grey);
+  background-color: var(--just-white);
+}
+.currrency__table--container_2 .table__top-left {
+  border-radius: 15px 0 0 0;
+}
+.currrency__table--container_2 .table__top-right {
+  border-radius: 0 15px 0 0;
+}
+.currrency__table--container_2 .table__bottom-left {
+  border-radius: 0 0 0 15px;
+}
+.currrency__table--container_2 .table__bottom-right {
+  border-radius: 0 0 15px 0;
+}
+.currrency__table--container_2 .table__right {
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.7rem;
+  color: #757575;
+}
+.main__currency-table_2 .currency__table-date_2 {
+  /* display: flex;
+  flex-direction: column; */
+  width: 190px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 8px;
+  background-color: var(--soft-blue);
+  border-radius: 8px;
+}
+.main__currency-table_2 .currency__table-date_2 p {
   /* margin: auto 0;
   font-size: 1rem; */
   color: var(--warm-black);
