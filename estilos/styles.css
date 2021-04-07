@@ -19,6 +19,7 @@
 html {
   font-size: 62.5%;
   font-family: var(--font-DM);
+  scroll-behavior: smooth;
 }
 /* -----------------------------------------cabezera --------------------------------------------------- */
 header {
@@ -388,4 +389,21 @@ main {
 }
 .circle {
   background-image: url(../assets/icons/check-circle.svg);
+}
+.bitcoin_img-container {
+  width: 100%;
+  min-width: 320px;
+  height: 60vh;
+  background-image: url(../assets/img/bitcoinbaby2x.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.bitcoin_img-container h2 {
+  padding-top: 60px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
 }
