@@ -443,6 +443,7 @@ main {
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
+  margin-right: 15px;
 }
 .plans_container--card {
   position: relative;
@@ -459,6 +460,9 @@ main {
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
+/* .card-premium {
+  padding-right: 15px;
+} */
 .recommended {
   position: absolute;
   width: 120px;
